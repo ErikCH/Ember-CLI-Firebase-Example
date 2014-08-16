@@ -1,6 +1,7 @@
-# Firetest1
+# Ember CLI Firebase test App
 
 This README outlines the details of collaborating on this Ember application.
+Check out more at www.programwitherik.com
 
 ## Installation
 
