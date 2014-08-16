@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Firetest1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/firetest1.css">
+  </head>
+  <body>
+    <script>
+      window.Firetest1ENV = {{ENV}};
+      window.EmberENV = window.Firetest1ENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/firetest1.js"></script>
+    <script>
+      window.Firetest1 = require('firetest1/app')['default'].create(Firetest1ENV.APP);
+    </script>
+  </body>
+</html>
