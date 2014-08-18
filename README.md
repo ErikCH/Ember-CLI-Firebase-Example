@@ -2,6 +2,7 @@
 
 This README outlines the details of collaborating on this Ember application.
 Check out more at www.programwitherik.com
+Make sure to edit the app/adapters/application.js with your firebase adapter
 
 ## Installation
 

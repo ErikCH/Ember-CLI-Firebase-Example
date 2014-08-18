@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export default Ember.Controller.extend({
+export default Ember.ArrayController.extend({
   init: function() {
     this.set('post', Ember.Object.create());
   },
